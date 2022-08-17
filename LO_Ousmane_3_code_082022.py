@@ -5,9 +5,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.linear_model import LogisticRegression
-from nlpk_module import print_score
+#from nlpk_module import print_score
 from sklearn.feature_extraction.text import TfidfVectorizer
-import numpy np
+import numpy as np
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn import metrics
 from time import time
@@ -105,24 +105,6 @@ my_body = "message broker vs mom message orient middleware little confused diffe
 text = my_title + my_body
 text = [text]
 
-def Performance_score(feature, name_model, model, X_test, y_true):
-    y_pred = model.predict(X_test)
-
-    temp_df = {'Score': ['hamming_loss', "Jaccard", "F1-score",
-                                      ]}
-    scores = []
-    scores.append(metrics.hamming_loss(y_true, y_pred))
-    scores.append(metrics.jaccard_score(y_true,
-                                        y_pred,
-                                        average='micro'))
-    scores.append(metrics.f1_score(y_pred,
-                                   y_true,
-                                   average='micro'))
-
-    temp_df[name_model + ' + ' + feature] = scores
-    return temp_df
-t0 = time()
-Performance_score('tfidf','LogisticRegression',final_model,X_test,y_test)
 print("done in %0.3fs." % (time() - t0))
 print("-----------------------------")
 
