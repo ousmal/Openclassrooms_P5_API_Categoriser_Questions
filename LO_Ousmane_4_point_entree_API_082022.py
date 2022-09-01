@@ -14,9 +14,9 @@ def index():
 
 @app.route("/predict", methods=['POST'])
 def predict():
-    title = request.form.get('title')
+    title = request.form['title']
     print(title)
-    body = request.form.get('body')
+    body = request.form['body']
     print(body)
 
     print("String format required for Machine Learning prediction")
