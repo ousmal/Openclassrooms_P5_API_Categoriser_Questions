@@ -1,1 +1,1 @@
-web: gunicorn app:LO_Ousmane_4_point_entree_API_082022
+web: gunicorn LO_Ousmane_4_point_entree_API_082022:LO_Ousmane_4_point_entree_API_082022
