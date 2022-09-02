@@ -43,7 +43,7 @@ tags_mlb = mlb.transform(tags)
 
 print("Number of Tags:", len(mlb.classes_))
 
-dump(mlb, open("C:/Users/ousma/PycharmProjects/Project5/mlb_transformer.pkl",'wb'))
+dump(mlb, open("C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions/mlb_transformer.pkl",'wb'))
 
 ########################################
 ############SPLITTING DATA##############
@@ -115,7 +115,7 @@ print("-----------------------------")
 print("Saving model...")
 t0 = time()
 
-joblib.dump(final_model, "C:/Users/ousma/PycharmProjects/Project5/model_pipeline.pkl")
+joblib.dump(final_model, "C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions/model_pipeline.pkl")
 print("Model saved!")
 print("done in %0.3fs." % (time() - t0))
 print("-----------------------------")
@@ -126,8 +126,8 @@ print("-----------------------------")
 
 print("Model loading...")
 
-final_model = joblib.load("C:/Users/ousma/PycharmProjects/Project5/model_pipeline.pkl")
-transformer = joblib.load("C:/Users/ousma/PycharmProjects/Project5/mlb_transformer.pkl")
+final_model = joblib.load("C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions/model_pipeline.pkl")
+transformer = joblib.load("C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions/mlb_transformer.pkl")
 
 print("Model loaded!")
 t0 = time()
