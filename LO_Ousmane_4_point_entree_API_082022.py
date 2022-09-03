@@ -3,8 +3,8 @@ import joblib
 
 app = Flask(__name__, template_folder='templates', static_folder='templates/static')
 
-keyword_model = joblib.load("C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions/model_pipeline.pkl")
-transformer = joblib.load("C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions/mlb_transformer.pkl")
+keyword_model = joblib.load("model_pipeline.pkl")
+transformer = joblib.load("mlb_transformer.pkl")
 
 
 @app.route('/')

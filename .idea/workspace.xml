@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e0db33-c0e3-4cf8-9d89-35fd10926a60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Project5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LO_Ousmane_4_point_entree_API_082022.py" beforeDir="false" afterPath="$PROJECT_DIR$/LO_Ousmane_4_point_entree_API_082022.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +36,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ousma/PycharmProjects/Openclassrooms_P5_API_Categoriser_Questions&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
