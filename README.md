@@ -11,7 +11,7 @@ Il était demandé de réaliser:
 
 - Fitrage des données issue de l'API [stackexchange explorer](https://data.stackexchange.com/stackoverflow/query/new)
 - Réaliser le pétraitement des documents
-- Comparer des approches suppervisées (Logistic Regression, Random Forest, Passive aggressif classifier) et non supervisées (NMF,LDA) afin de prédire des tags
+- Comparer des approches suppervisées (Logistic Regression, Random Forest, Passive aggressive classifier) et non supervisées (NMF,LDA) afin de prédire des tags
 - Réaliser les fonctions et classes nécessaire à l'implémentation de l'API.
 - Développer une API et la mettre en production
 
