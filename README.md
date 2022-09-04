@@ -9,11 +9,11 @@ Il a étét l'occasion de mettre en oeuvre des méthodes de NLP. Ce repository p
 
 Il était demandé de réaliser:
 
--Fitrage des données issue de l'API [stackexchange explorer](https://data.stackexchange.com/stackoverflow/query/new)
--Réaliser le pétraitement des documents
--Comparer des approches suppervisées (Logistic Regression, Random Forest, Passive aggressif classifier) et non supervisées (NMF,LDA) afin de prédire des tags
--Réaliser les fonctions et classes nécessaire à l'implémentation de l'API.
--Développer une API et la mettre en production
+- Fitrage des données issue de l'API [stackexchange explorer](https://data.stackexchange.com/stackoverflow/query/new)
+- Réaliser le pétraitement des documents
+- Comparer des approches suppervisées (Logistic Regression, Random Forest, Passive aggressif classifier) et non supervisées (NMF,LDA) afin de prédire des tags
+- Réaliser les fonctions et classes nécessaire à l'implémentation de l'API.
+- Développer une API et la mettre en production
 
 # Contenu du repositiry:
  
@@ -21,9 +21,9 @@ Il était demandé de réaliser:
 
 # Stack technique:
 
--Python
--Flask
--pythonanywhere
+- Python
+- Flask
+- pythonanywhere
 
 # Liens vers l'API:
 
