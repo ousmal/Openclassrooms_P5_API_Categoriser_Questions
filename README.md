@@ -27,4 +27,4 @@ Il était demandé de réaliser:
 
 # Liens vers l'API:
 
-- Endpoint permettant de réaliser la rédiction de tags
+- [Endpoint permettant de réaliser la rédiction de tags]!(http://loousmane.pythonanywhere.com/)
